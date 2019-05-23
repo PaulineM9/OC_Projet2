@@ -1,0 +1,127 @@
+/*
+Theme Name: twentyseventeen_child
+Description: Theme enfant de PaulineM9 
+Author: PaulineM9 
+Author URI: https://www.paulinemartin-portfolio.com
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+.fa.fa-exclamation-circle.fa-,
+.fa.fa-calendar-o.fa-,
+.fa.fa-bicycle.fa-,
+.fa.fa-phone-square.fa-,
+.fa.fa-phone.fa-,
+.fa.fa-envelope.fa- {
+	color: rgb(176,59,90);
+}
+
+.entry-content a {
+	color: rgb(176,59,90);
+}
+
+#masthead .wrap {
+	background-color: rgba(238,238,238, 0.7)
+}
+
+.site-branding {
+	position: relative;
+	top: 150px;
+}
+.em-booking-form-details label {
+	font-size: 14px;
+}
+
+.navigation-top {
+position: absolute;
+top: 0px;
+width: 100%;
+height: 72px;
+}
+
+.tablepress {
+	position: relative;
+	width: 98px;
+	left: 2px;
+}
+
+.tablepress thead th {
+	background-color: rgb(210, 141, 159);
+}
+
+.tablepress .sorting_asc {
+	background-color: rgb(206, 64, 111);
+}
+
+#tablepress-1 td, 
+#tablepress-1 tu {
+	border: 1px solid lightgrey;
+	border-collapse: collapse;
+}
+
+#tablepress-1_previous,
+#tablepress-1_next {
+	position: relative;
+	top: 20px;
+}
+
+.site-info a {
+	position: relative;
+	top: 250px;
+}
+
+/*Responsive Design */
+
+@media all and (max-width: 479px)
+{
+	.navigation-top {
+		visibility: hidden;}
+	
+	.site-branding {
+		top: 10px;
+	}
+	
+	#tablepress-1_filter {
+		top: 0px;
+		left: -10px;	
+	}
+	#tablepress-1_filter input {
+		width: 150px;
+	}
+	
+	#recent-posts-2 {
+		position: relative;
+		top: 180px
+	}
+	
+	#archives-2 {
+		position: relative;
+		top: 170px;
+	}
+}
+
+@media all and (max-width: 959px)
+{
+	.navigation-top {
+		visibility: hidden;}
+	
+	.site-branding {
+		top: 10px;
+	}
+	
+	#tablepress-1_filter {
+	top: 70px;
+	right: 255px;
+}
+	
+	#recent-posts-2 {
+		position: relative;
+		top: 180px
+	}
+	
+	#archives-2 {
+		position: relative;
+		top: 200px;
+	}
+}
+	
